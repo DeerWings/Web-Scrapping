@@ -1,0 +1,20 @@
+news_sites:
+  tn:
+    url: https://www.tn.com.ar
+    queries:
+      homepage_article_links: '.card__headline a'
+      article_body:  '.article__body'    
+      article_title: '.article__title'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: '.articulo-titulo a'
+      article_body: '.articulo-cuerpo'
+      article_title: '.articulo-titulo' 
+  washingtonpost:
+    url: https://www.washingtonpost.com
+    queries:
+      homepage_article_links: '.web_headline'
+      article_body: '.font--headline offblack headline mb-sm span'
+      article_title: '.article-body p'
+
